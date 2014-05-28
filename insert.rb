@@ -18,3 +18,6 @@ class InsertSort
   end
 
 end
+
+
+InsertSort.new((0..10000).to_a.shuffle).insert
